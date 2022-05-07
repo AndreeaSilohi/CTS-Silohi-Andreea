@@ -1,4 +1,4 @@
-package prototip;
+package prototype;
 
 public class Main {
 	public static void main(String[] args) {
@@ -7,12 +7,6 @@ public class Main {
 		StringBuilder builder= new StringBuilder();
 		
 		builder.append("Ana").append("are").append("mere");
-		
-		
-		
-		
-		
-		
 		
 		Autobuz autobuz=new Autobuz("Ana");
 		Autobuz autobuz2;

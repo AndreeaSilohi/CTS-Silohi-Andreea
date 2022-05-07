@@ -1,11 +1,11 @@
-package factorymethodmain;
+package main;
 
 import factorymethod.FabricaAutobuz;
 import factorymethod.FabricaTramvai;
 import factorymethod.FabricaTroleibuz;
 import mijlocdetransport.MijlocTransport;
 
-public class Main {
+public class MainFactoryMethod {
 	public static void main(String [] args) {
 		MijlocTransport autobuz=new FabricaAutobuz().returneazaMijlocTransport("B3jdh");
 		MijlocTransport tramvai=new FabricaTramvai().returneazaMijlocTransport("B7jdh");

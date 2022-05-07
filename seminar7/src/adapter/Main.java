@@ -7,22 +7,25 @@ import claseTerestru.ValidatorAutobuz;
 import claseTerestru.ValidatorTerestru;
 
 public class Main {
-	static void valideaza (ValidatorTerestru validatorTerestru) {
+	static void valideazaBiletCalatorie(ValidatorTerestru validatorTerestru) {
 		validatorTerestru.validatorBilet();
 		
 	}
 
-	public static void main(String []args) {
-		ValidatorAutobuz validatorAutobuz=new ValidatorAutobuz();
-		valideaza(validatorAutobuz);
-		ValidatorMetrou validatorMetrou =new ValidatorMetrou();
-		ValidatorAdapter adapter=new ValidatorAdapter();
-		AdapterObiecte adapterObiecte=new AdapterObiecte(validatorMetrou);
+	public static void main(String[] args) {
 	
-    	valideaza(adapterObiecte);
-		ValidatorAdapter validatorAdapter=new ValidatorAdapter();
-		valideaza(adapter);
+		//adapter obiecte
+		ValidatorAutobuz validatorAutobuz = new ValidatorAutobuz();
+		valideazaBiletCalatorie(validatorAutobuz);
 		
+		ValidatorMetrou validatorMetrou = new ValidatorMetrou();
+		AdapterObiecte adapterObiecte = new AdapterObiecte(validatorMetrou);
+		valideazaBiletCalatorie(adapterObiecte);
+		
+		
+         //adapter de clase
+		ValidatorAdapter validatorAdapter = new ValidatorAdapter();
+		valideazaBiletCalatorie(validatorAdapter);
 	}
 	
 }

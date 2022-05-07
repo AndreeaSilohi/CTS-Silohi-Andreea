@@ -1,4 +1,4 @@
-package prototip;
+package prototype;
 
 public class Tramvai implements MijlocdeTransport {
 	private String vatman;
@@ -22,17 +22,14 @@ public class Tramvai implements MijlocdeTransport {
 		this.vatman = vatman;
 	}
 
-	@Override
-	public void setSoferAutobuz(String string) {
-		// TODO Auto-generated method stub
+
+	public void setSoferAutobuz(String vatman) {
 		
+		this.vatman=vatman;
 	}
 
-	@Override
-	public char[] getSofer() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+
+
 	
 
 }

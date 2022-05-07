@@ -1,7 +1,7 @@
 package main;
 
 import clase.Autobuz;
-import clase.LineFactory;
+import clase.AutobuzFactory;
 
 public class Main {
 	public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class Main {
 		Autobuz a3=new Autobuz("Mercedes3",2015,100);
 		Autobuz a4=new Autobuz("Mercedes4",2020,102);
 		
-		LineFactory factory=new LineFactory();
+		AutobuzFactory factory=new AutobuzFactory();
 		factory.getLinie(137).afiseazaDescriere(a1);
 		factory.getLinie(137).afiseazaDescriere(a2);
 		factory.getLinie(168).afiseazaDescriere(a3);

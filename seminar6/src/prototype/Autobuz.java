@@ -1,4 +1,4 @@
-package prototip;
+package prototype;
 
 public class Autobuz implements MijlocdeTransport {
 	private String sofer;

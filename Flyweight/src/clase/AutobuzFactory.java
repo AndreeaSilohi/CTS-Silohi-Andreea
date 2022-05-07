@@ -3,10 +3,10 @@ package clase;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LineFactory {
+public class AutobuzFactory {
 	Map <Integer,Liniee>mapFactory;
 
-	public LineFactory() {
+	public AutobuzFactory() {
 	this.mapFactory=new HashMap();
 	}
 	

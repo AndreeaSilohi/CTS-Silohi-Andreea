@@ -2,7 +2,7 @@ package main;
 
 import singletone.Singletone;
 
-public class Main {
+public class MainSingletone {
 	public static void main(String args[]) {
 		Singletone s1;
 		Singletone s2;

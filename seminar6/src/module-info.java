@@ -1,2 +1,0 @@
-module seminar6 {
-}
