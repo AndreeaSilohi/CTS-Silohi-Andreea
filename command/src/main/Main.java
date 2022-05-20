@@ -20,6 +20,11 @@ public class Main {
 		operator.adauga(comanda2);
 		operator.adauga(comanda3);
 		
+		operator.executa(comanda4);
+		operator.adauga(comanda1);
+		operator.adauga(comanda2);
+		operator.adauga(comanda3);
+		
 	}
 
 }
